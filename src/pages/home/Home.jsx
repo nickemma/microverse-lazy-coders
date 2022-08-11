@@ -1,7 +1,13 @@
+import MainHeader from '../../components/MainHeader';
 import './Home.css';
 
 function Home() {
-  return <div>Home</div>;
+  return (
+    <>
+      <MainHeader />
+      <h1>Hello world</h1>
+    </>
+  );
 }
 
 export default Home;

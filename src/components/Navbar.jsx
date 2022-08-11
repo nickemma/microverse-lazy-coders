@@ -9,7 +9,7 @@ import './Navbar.css';
 function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const handleClick = () => {
-    setIsNavOpen(!isNavOpen);
+    setIsNavOpen((prev) => !prev);
   };
   return (
     <nav>
@@ -24,6 +24,7 @@ function Navbar() {
                 <NavLink
                   to={path}
                   className={({ isActive }) => (isActive ? 'active-tab' : '')}
+                  onClick={handleClick}
                 >
                   {name}
                 </NavLink>
