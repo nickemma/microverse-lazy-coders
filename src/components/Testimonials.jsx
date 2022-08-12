@@ -11,6 +11,19 @@ import { testimonials } from '../data';
 function Testimonials() {
   const [index, setIndex] = useState(0);
   const { name, quote, job, avatar } = testimonials[index];
+
+  const prevImage = () => {
+    setIndex((prev) => prev - 1);
+    if (index <= 0) {
+      setIndex(testimonials.length - 1);
+    }
+  };
+  const nextImage = () => {
+    setIndex((prev) => prev + 1);
+    if (index >= testimonials.length - 1) {
+      setIndex(0);
+    }
+  };
   return (
     <section className="testimonials">
       <div className="container testimonial-content">
@@ -28,10 +41,10 @@ function Testimonials() {
           <small className="job">{job}</small>
         </Card>
         <div className="btn-container">
-          <button className="btn-testimonials">
+          <button className="btn-testimonials" onClick={prevImage}>
             <IoIosArrowDropleftCircle />
           </button>
-          <button className="btn-testimonials">
+          <button className="btn-testimonials" onClick={nextImage}>
             <IoIosArrowDroprightCircle />
           </button>
         </div>
