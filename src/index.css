@@ -30,6 +30,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -38,6 +39,10 @@ body {
   line-height: 1.7;
   overflow-x: hidden;
   color: var(--text-color);
+}
+
+section {
+  margin-top: 10rem;
 }
 
 .container {
@@ -55,11 +60,12 @@ h4 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
-h2 {
-  font-size: 2rem;
+h2,
+h3 {
+  font-size: 2.5rem;
 }
 
 a {
@@ -71,4 +77,81 @@ img {
   display: block;
   object-fit: cover;
   width: 100%;
+}
+
+.btn {
+  color: var(--white);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  background: rgb(43, 41, 41);
+  border-radius: 1.5rem;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--secondary-color);
+}
+
+.btn-sm {
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+}
+
+.programs-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.programs-title span {
+  background: rgb(43, 41, 41);
+  padding: 0.8rem;
+  border-radius: 1rem;
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+}
+
+.card {
+  background: rgb(43, 41, 41);
+  border: 2px solid transparent;
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 0 3rem;
+  transition: var(--transition);
+}
+
+.card:hover {
+  background: transparent;
+  color: #1a1a1a;
+  cursor: default;
+}
+
+.card span {
+  width: 3rem;
+  height: 3rem;
+  background: wheat;
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  transition: var(--transition);
+}
+
+.card p {
+  font-weight: 300;
+  display: block;
+  margin-top: 1rem;
+  color: var(--text-color);
+  font-size: 1.4rem;
+}
+
+.card:hover span {
+  background: var(--secondary-color);
+  color: var(--text-color);
 }

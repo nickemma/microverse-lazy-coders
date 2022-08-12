@@ -34,7 +34,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: var(--text-color);
+  color: #f36969;
 }
 
 .active-tab {
