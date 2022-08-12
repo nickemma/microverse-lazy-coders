@@ -13,6 +13,7 @@ nav {
 
 .logo {
   width: 10rem;
+  display: block;
 }
 
 .navbar {

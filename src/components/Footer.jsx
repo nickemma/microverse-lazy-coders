@@ -1,13 +1,9 @@
 import Logo from '../images/logo.png';
 import { Link } from 'react-router-dom';
-import { FaLinkedin } from 'react-icons/fa';
-import { FaFacebook } from 'react-icons/fa';
-import { AiOutlineTwitter } from 'react-icons';
-import { AiFillInstagram } from 'react-icons';
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <div className="container footer-content">
         <article className="test">
           <Link to="/" className="logo">
@@ -19,35 +15,21 @@ function Footer() {
             sapiente.
           </p>
         </article>
-        <div className="footer-social">
-          <a href="#">
-            <FaLinkedin />
-          </a>
-          <a href="#">
-            <FaFacebook />
-          </a>
-          <a href="#">
-            <AiOutlineTwitter />
-          </a>
-          <a href="#">
-            <AiFillInstagram />
-          </a>
-        </div>
-        <article>
+        <article className="test">
           <h3>links</h3>
           <Link to="/about">About</Link>
           <Link to="/trainers">trainers</Link>
           <Link to="/gallery">gallery</Link>
           <Link to="/contact">contact</Link>
         </article>
-        <article>
+        <article className="test">
           <h3>links</h3>
           <Link to="/about">About</Link>
           <Link to="/trainers">trainers</Link>
           <Link to="/gallery">gallery</Link>
           <Link to="/contact">contact</Link>
         </article>
-        <article>
+        <article className="test">
           <h3>links</h3>
           <Link to="/about">About</Link>
           <Link to="/trainers">trainers</Link>
