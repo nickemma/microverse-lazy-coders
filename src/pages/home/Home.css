@@ -1,6 +1,6 @@
 .main {
   width: 100vw;
-  height: Calc(100vh - 3rem);
+  height: calc(100vh - 3rem);
   display: grid;
   place-items: center;
   margin-top: 3rem;
@@ -265,7 +265,7 @@
   }
 
   .main-header {
-    gap: 0;
+    gap: 0px;
   }
 
   .value-content {
