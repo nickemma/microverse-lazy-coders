@@ -1,3 +1,5 @@
+/* eslint-disable global-require */
+
 import { FaLaptopCode } from 'react-icons/fa';
 
 export const links = [
