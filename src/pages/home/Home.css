@@ -1,0 +1,309 @@
+.main {
+  width: 100vw;
+  height: calc(100vh - 3rem);
+  display: grid;
+  place-items: center;
+  margin-top: 3rem;
+}
+
+.main-header {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.header-left {
+  margin-top: -3rem;
+}
+
+.header-left h3 {
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.header-left h1 {
+  font-weight: 600;
+  font-size: 4.5rem;
+  text-transform: capitalize;
+}
+
+.header-left p {
+  margin: 1rem 0 3.5rem;
+  color: var(--white);
+  font-size: 1.5rem;
+}
+
+.image img {
+  border-radius: 5rem;
+}
+
+/* ============== Programs sections ==================== */
+
+.programs {
+  margin-top: 4rem;
+}
+
+.programs-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.programs-items a {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ============== Values sections ==================== */
+
+.value-content {
+  display: grid;
+  grid-template-columns: 38% 50%;
+  gap: 12%;
+}
+
+.value-image {
+  filter: saturate(0.25);
+  transition: var(--transition);
+}
+
+.value-image img {
+  height: 90vh;
+  width: 38vw;
+  border-radius: 1.5rem;
+}
+
+.value-image:hover {
+  filter: saturate(1);
+}
+
+.value-right > p {
+  margin: 2rem 0.5rem;
+  font-size: 1.3rem;
+}
+
+.values-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.4rem 2.4rem;
+}
+
+.card.values-items {
+  padding-top: 3.5rem;
+  text-align: left;
+  position: relative;
+}
+
+.card.values-items span {
+  position: absolute;
+  top: -1.5rem;
+}
+
+/* ============== FAQ sections ==================== */
+
+.faqs-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem 5rem;
+  align-items: flex-start;
+}
+
+.faq {
+  background: var(--primary-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.faq .faq-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-icon {
+  background: transparent;
+  font-size: 1.5rem;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.faq p {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* ============== FAQ sections ==================== */
+
+.testimonial-content {
+  margin-top: 5rem;
+}
+
+.testimonials {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+.testimonials-title {
+  justify-content: center;
+}
+
+.card.testimonial {
+  position: relative;
+  text-align: left;
+  margin-top: 5rem;
+}
+
+.testimonial-image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  position: absolute;
+  top: -2rem;
+  left: calc(50% - 2rem);
+  box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.4);
+}
+
+.quote {
+  font-style: italic;
+  margin: 1rem 0 2rem;
+}
+
+.card h4 {
+  font-size: 1.6rem;
+}
+
+.card .job {
+  margin-top: 0.5rem;
+  color: var(--white);
+  font-size: 1.4rem;
+}
+
+.btn-container {
+  width: fit-content;
+  margin: 2.5rem auto 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-testimonials {
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn-testimonials svg {
+  fill: var(--secondary-color);
+  font-size: 2rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+/* ============== FAQ sections ==================== */
+
+.footer {
+  background: var(--primary-color);
+  margin-top: 7rem;
+  padding-top: 7rem;
+  font-size: 1rem;
+  color: var(--white);
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1rem;
+}
+
+.footer-content .test {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+
+.footer-content .test h3 {
+  margin-bottom: 0.6rem;
+  font-size: 2.2rem;
+  color: var(--secondary-color);
+}
+
+.footer-content .test a:hover {
+  color: var(--secondary-color);
+  letter-spacing: 2px;
+}
+
+.footer .credit {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--white);
+  border-top: 0.1rem solid var(--secondary-color);
+  cursor: pointer;
+}
+
+.footer .credit span {
+  color: var(--secondary-color);
+}
+
+/* ========= Media Queries style ============ */
+
+@media (max-width: 800px) {
+  .main {
+    height: 100%;
+    padding: 12rem 0;
+  }
+
+  .value-content {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .faqs-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials {
+    width: 75%;
+  }
+
+  .value-image img {
+    height: 75vh;
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-header {
+    grid-template-columns: 1fr;
+  }
+
+  .main-header .image {
+    display: none;
+  }
+
+  .values-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-content .test {
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .footer-content .test h3 {
+    font-size: 3rem;
+  }
+}
