@@ -5,6 +5,7 @@ import Gallery from './pages/gallery/Gallery';
 import Contact from './pages/contact/Contact';
 import Trainers from './pages/trainers/Trainers';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="trainers" element={<Trainers />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

@@ -239,3 +239,54 @@
 .footer .credit span {
   color: var(--secondary-color);
 }
+
+/* ========= Media Queries style ============ */
+
+@media (max-width: 800px) {
+  .main {
+    height: fit-content;
+    padding: 12rem 0;
+  }
+
+  .main-header {
+    gap: 0;
+  }
+
+  .value-content {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .faqs-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials {
+    width: 75%;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-header {
+    grid-template-columns: 1fr;
+  }
+
+  .main-header .image {
+    display: none;
+  }
+
+  .values-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-content .test {
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .footer-content .test h3 {
+    font-size: 3rem;
+  }
+}
