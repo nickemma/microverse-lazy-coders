@@ -12,15 +12,17 @@
 .contact-wrapper a {
   background: var(--secondary-color);
   border: 2px solid transparent;
-  font-size: 5rem;
+  font-size: 3.5rem;
   transition: var(--transition);
-  padding: 3rem;
+  padding: 1.5rem;
   border-radius: 1.5rem;
+  color: var(--bg-color);
 }
 
 .contact-wrapper a:hover {
   background: transparent;
-  border-color: var(--text-color);
+  border-color: var(--white);
+  color: var(--white);
 }
 
 /* ========= Media Queries style ============ */

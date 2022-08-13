@@ -1,4 +1,5 @@
 import Card from '../UI/Card';
+
 function Trainer({ image, name, job, socials }) {
   return (
     <Card className="trainer">

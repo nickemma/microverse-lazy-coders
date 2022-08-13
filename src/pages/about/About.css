@@ -1,5 +1,5 @@
 .about-image {
-  border-radius: 50%;
+  border-radius: 2rem;
   overflow: hidden;
   transform: skew(15deg);
   transition: var(--transition);

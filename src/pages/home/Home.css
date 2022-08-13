@@ -34,7 +34,7 @@
 
 .header-left p {
   margin: 1rem 0 3.5rem;
-  color: var(--text-color);
+  color: var(--white);
   font-size: 1.5rem;
 }
 
@@ -74,6 +74,12 @@
   transition: var(--transition);
 }
 
+.value-image img {
+  height: 90vh;
+  width: 38vw;
+  border-radius: 1.5rem;
+}
+
 .value-image:hover {
   filter: saturate(1);
 }
@@ -110,7 +116,7 @@
 }
 
 .faq {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   padding: 2rem;
   border-radius: 1rem;
   cursor: pointer;
@@ -125,7 +131,8 @@
 .faq-icon {
   background: transparent;
   font-size: 1.5rem;
-  color: var(--text-color);
+  color: var(--white);
+  cursor: pointer;
 }
 
 .faq p {
@@ -170,9 +177,13 @@
   margin: 1rem 0 2rem;
 }
 
+.card h4 {
+  font-size: 1.6rem;
+}
+
 .card .job {
   margin-top: 0.5rem;
-  color: var(--text-color);
+  color: var(--white);
   font-size: 1.4rem;
 }
 
@@ -199,11 +210,11 @@
 /* ============== FAQ sections ==================== */
 
 .footer {
-  background: #1a1a1a;
+  background: var(--primary-color);
   margin-top: 7rem;
   padding-top: 7rem;
   font-size: 1rem;
-  color: var(--text-color);
+  color: var(--white);
 }
 
 .footer-content {
@@ -225,13 +236,18 @@
   color: var(--secondary-color);
 }
 
+.footer-content .test a:hover {
+  color: var(--secondary-color);
+  letter-spacing: 2px;
+}
+
 .footer .credit {
   text-align: center;
   margin-top: 3rem;
   padding-top: 3rem;
   font-size: 2rem;
   text-transform: capitalize;
-  color: var(--text-color);
+  color: var(--white);
   border-top: 0.1rem solid var(--secondary-color);
   cursor: pointer;
 }
@@ -264,6 +280,11 @@
 
   .testimonials {
     width: 75%;
+  }
+
+  .value-image img {
+    height: 75vh;
+    width: 100%;
   }
 }
 

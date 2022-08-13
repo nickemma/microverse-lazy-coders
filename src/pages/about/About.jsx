@@ -1,8 +1,8 @@
 import Hero from '../../components/Hero';
-import Image from '../../images/header_bg_1.jpg';
-import StoryImage from '../../images/about1.jpg';
-import VisionImage from '../../images/about2.jpg';
-import MissionImage from '../../images/about3.jpg';
+import Image from '../../images/meeting-2.jpg';
+import StoryImage from '../../images/image3.png';
+import VisionImage from '../../images/image4.png';
+import MissionImage from '../../images/image5.png';
 import './About.css';
 
 function About() {

@@ -1,7 +1,7 @@
 nav {
-  height: 5rem;
+  height: 6rem;
   width: 100vw;
-  background: var(--secondary-color);
+  background: var(--primary-color);
   display: grid;
   place-items: center;
   position: fixed;
@@ -12,8 +12,13 @@ nav {
 }
 
 .logo {
-  width: 10rem;
+  width: 7rem;
   display: block;
+}
+
+.logo img {
+  border-radius: 5rem;
+  width: 80%;
 }
 
 .navbar {
@@ -35,12 +40,12 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #f36969;
+  color: var(--secondary-color);
 }
 
 .active-tab {
   text-decoration: underline;
-  color: var(--text-color);
+  color: var(--white);
 }
 
 /* ================ Media Queries =================== */
@@ -50,7 +55,7 @@ nav {
     display: inline-block;
     background: transparent;
     font-size: 3rem;
-    color: white;
+    color: var(--white);
     cursor: pointer;
   }
 
@@ -103,7 +108,7 @@ nav {
   }
 
   .nav-links a {
-    background: var(--secondary-color);
+    background: var(--primary-color);
     height: 100%;
     width: 100%;
     display: flex;
@@ -114,6 +119,7 @@ nav {
   .show-nav {
     display: flex;
   }
+
   .hide-nav {
     display: none;
   }

@@ -1,0 +1,43 @@
+.trainers-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
+  gap: 3rem;
+}
+
+.card.trainer {
+  padding: 1rem;
+}
+
+.trainer-image {
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+.trainer h3 {
+  margin-top: 2rem;
+}
+
+.trainer p {
+  margin-top: 0.5rem;
+}
+
+.trainer .trainer-socials {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.trainer .trainer-socials a {
+  background: var(--bg-color);
+  padding: 0.8rem;
+  color: var(--white);
+  border-radius: 0.7rem;
+  transition: var(--transition);
+}
+
+.trainer .trainer-socials a:hover {
+  background: var(--secondary-color);
+  color: var(--bg-color);
+}

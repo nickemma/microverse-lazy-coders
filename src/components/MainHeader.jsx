@@ -6,7 +6,7 @@ function MainHeader() {
     <header className="main">
       <div className="container main-header">
         <div className="header-left">
-          <h3>#100DaysOfCodes</h3>
+          <h3>#100DaysOfCode</h3>
           <h1>Join the legends of the programming world</h1>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.

@@ -1,5 +1,5 @@
-import Logo from '../images/logo.png';
 import { Link } from 'react-router-dom';
+import Logo from '../images/logo1.png';
 
 function Footer() {
   return (
@@ -16,25 +16,26 @@ function Footer() {
           </p>
         </article>
         <article className="test">
-          <h3>links</h3>
+          <h3>Menu</h3>
           <Link to="/about">About</Link>
           <Link to="/trainers">trainers</Link>
           <Link to="/gallery">gallery</Link>
           <Link to="/contact">contact</Link>
         </article>
         <article className="test">
-          <h3>links</h3>
-          <Link to="/about">About</Link>
-          <Link to="/trainers">trainers</Link>
-          <Link to="/gallery">gallery</Link>
-          <Link to="/contact">contact</Link>
+          <h3>Support</h3>
+          <Link to="/about">Partner</Link>
+          <Link to="/trainers">Health Insurance</Link>
+          <Link to="/gallery">24/7 Support</Link>
+          <Link to="/contact">Microverse</Link>
         </article>
         <article className="test">
-          <h3>links</h3>
-          <Link to="/about">About</Link>
-          <Link to="/trainers">trainers</Link>
-          <Link to="/gallery">gallery</Link>
-          <Link to="/contact">contact</Link>
+          <h3>Utility</h3>
+          <Link to="/about">Style Guide</Link>
+          <Link to="/trainers">License</Link>
+          <Link to="/gallery">404 Page</Link>
+          <Link to="/contact">Change Log</Link>
+          <Link to="/contact">Github</Link>
         </article>
       </div>
       <div class="credit">
