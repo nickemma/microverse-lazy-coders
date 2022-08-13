@@ -135,7 +135,7 @@ export const testimonials = [
     quote:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.',
     job: 'Student',
-    avatar: require('./images/avatar1.jpg'),
+    avatar: require('./images/avatar1.png'),
   },
   {
     id: 2,
@@ -182,8 +182,8 @@ export const trainers = [
   {
     id: 1,
     image: Trainer1,
-    name: 'SidNey Kaguli',
-    job: 'Aerobic Trainer',
+    name: 'Abdelmajid',
+    job: 'Javascript Developer',
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
@@ -194,8 +194,8 @@ export const trainers = [
   {
     id: 2,
     image: Trainer2,
-    name: 'Said Lassri',
-    job: 'Speed Trainer',
+    name: 'Dorian Urem',
+    job: 'Software Engineer',
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
@@ -206,8 +206,8 @@ export const trainers = [
   {
     id: 3,
     image: Trainer3,
-    name: 'Piesie Omane',
-    job: 'Flexibility Trainer',
+    name: 'Said Lassri',
+    job: 'Front End Developer',
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
@@ -218,8 +218,8 @@ export const trainers = [
   {
     id: 4,
     image: Trainer4,
-    name: 'Dorian Urem',
-    job: 'Body Composition Trainer',
+    name: 'Chrispaix Kaze',
+    job: 'UI/UX Designer',
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
@@ -230,8 +230,8 @@ export const trainers = [
   {
     id: 5,
     image: Trainer5,
-    name: 'Chrispaix Kaze',
-    job: 'Circuit Trainer',
+    name: 'Sidney Kaguli',
+    job: 'Devops Engineer',
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
@@ -242,8 +242,8 @@ export const trainers = [
   {
     id: 6,
     image: Trainer6,
-    name: 'Desmond Owusu Ansah',
-    job: 'Physical Intelligence Trainer',
+    name: 'Piesie Omane',
+    job: 'Back End Developer',
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',

@@ -19,27 +19,27 @@ function Footer() {
           <h3>Menu</h3>
           <Link to="/about">About</Link>
           <Link to="/trainers">trainers</Link>
-          <Link to="/gallery">gallery</Link>
           <Link to="/contact">contact</Link>
         </article>
         <article className="test">
           <h3>Support</h3>
           <Link to="/about">Partner</Link>
           <Link to="/trainers">Health Insurance</Link>
-          <Link to="/gallery">24/7 Support</Link>
+          <Link to="/">24/7 Support</Link>
           <Link to="/contact">Microverse</Link>
         </article>
         <article className="test">
           <h3>Utility</h3>
           <Link to="/about">Style Guide</Link>
           <Link to="/trainers">License</Link>
-          <Link to="/gallery">404 Page</Link>
+          <Link to="/">404 Page</Link>
           <Link to="/contact">Change Log</Link>
           <Link to="/contact">Github</Link>
         </article>
       </div>
-      <div class="credit">
-        created by <span>Techie Emma</span> | all rights reserved!
+      <div className="credit">
+        created by
+        <span>Techie Emma</span> | all rights reserved!
       </div>
     </footer>
   );
