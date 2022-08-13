@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { AiFillCaretRight } from 'react-icons/ai';
-import { AiFillCaretLeft } from 'react-icons/ai';
+import { AiOutlinePlus } from 'react-icons/ai';
+import { AiOutlineMinus } from 'react-icons/ai';
 
 function FAQ({ question, answer }) {
   const [isAnswerShowing, setIsAnswerShowing] = useState(false);
@@ -14,7 +14,7 @@ function FAQ({ question, answer }) {
       <div className="faq-info">
         <h3>{question}</h3>
         <button type="button" className="faq-icon">
-          {isAnswerShowing ? <AiFillCaretLeft /> : <AiFillCaretRight />}
+          {isAnswerShowing ? <AiOutlineMinus /> : <AiOutlinePlus />}
         </button>
       </div>
       {isAnswerShowing && <p>{answer}</p>}
