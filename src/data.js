@@ -187,7 +187,7 @@ export const trainers = [
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
-      'https://facebook.com/',
+      'https://github.com/',
       'https://linkedin.com/',
     ],
   },
@@ -199,7 +199,7 @@ export const trainers = [
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
-      'https://facebook.com/',
+      'https://github.com/',
       'https://linkedin.com/',
     ],
   },
@@ -211,7 +211,7 @@ export const trainers = [
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
-      'https://facebook.com/',
+      'https://github.com/',
       'https://linkedin.com/',
     ],
   },
@@ -223,7 +223,7 @@ export const trainers = [
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
-      'https://facebook.com/',
+      'https://github.com/',
       'https://linkedin.com/',
     ],
   },
@@ -235,7 +235,7 @@ export const trainers = [
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
-      'https://facebook.com/',
+      'https://github.com/',
       'https://linkedin.com/',
     ],
   },
@@ -247,7 +247,7 @@ export const trainers = [
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
-      'https://facebook.com/',
+      'https://github.com/',
       'https://linkedin.com/',
     ],
   },

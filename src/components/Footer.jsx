@@ -39,7 +39,7 @@ function Footer() {
       </div>
       <div className="credit">
         created by
-        <span>Techie Emma</span> | all rights reserved!
+        <span> Techie Emma</span> | all rights reserved!
       </div>
     </footer>
   );

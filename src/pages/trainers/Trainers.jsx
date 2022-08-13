@@ -1,10 +1,10 @@
-import Hero from '../../components/Hero';
-import { trainers } from '../../data';
-import Image from '../../images/image1.png';
 import { BsInstagram } from 'react-icons/bs';
 import { AiOutlineTwitter } from 'react-icons/ai';
-import { FaFacebookF } from 'react-icons/fa';
+import { BsGithub } from 'react-icons/bs';
 import { FaLinkedinIn } from 'react-icons/fa';
+import Image from '../../images/image1.png';
+import { trainers } from '../../data';
+import Hero from '../../components/Hero';
 import Trainer from '../../components/Trainer';
 import './Trainers.css';
 
@@ -30,7 +30,7 @@ function Trainers() {
                 socials={[
                   { icon: <BsInstagram />, link: socials[0] },
                   { icon: <AiOutlineTwitter />, link: socials[1] },
-                  { icon: <FaFacebookF />, link: socials[2] },
+                  { icon: <BsGithub />, link: socials[2] },
                   { icon: <FaLinkedinIn />, link: socials[3] },
                 ]}
               />
