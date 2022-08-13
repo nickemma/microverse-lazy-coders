@@ -232,7 +232,7 @@ img {
   }
 
   .header {
-    height: fit-content;
+    height: 100%;
   }
 
   .header-content {
@@ -241,6 +241,6 @@ img {
   }
 
   .header-content p {
-    font-size: 0.85;
+    font-size: 0.85rem;
   }
 }

@@ -260,12 +260,8 @@
 
 @media (max-width: 800px) {
   .main {
-    height: fit-content;
+    height: 100%;
     padding: 12rem 0;
-  }
-
-  .main-header {
-    gap: 0px;
   }
 
   .value-content {
