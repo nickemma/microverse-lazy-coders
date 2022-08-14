@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useState } from 'react';
 import { ImQuotesLeft } from 'react-icons/im';
 import {

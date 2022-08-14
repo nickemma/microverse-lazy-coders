@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { GiCutDiamond } from 'react-icons/gi';
 import Image from '../images/values1.png';
 import SectionTitle from './SectionTitle';

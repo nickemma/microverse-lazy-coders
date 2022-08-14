@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Link } from 'react-router-dom';
 import { FaCrown } from 'react-icons/fa';
 import { AiFillCaretRight } from 'react-icons/ai';

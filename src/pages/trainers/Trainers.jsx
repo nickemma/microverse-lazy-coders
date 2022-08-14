@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { BsInstagram, BsGithub } from 'react-icons/bs';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
