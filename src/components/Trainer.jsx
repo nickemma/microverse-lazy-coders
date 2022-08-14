@@ -1,6 +1,9 @@
+/* eslint-disable */
+import { PropTypes } from 'prop-types';
 import Card from '../UI/Card';
 
-function Trainer({ image, name, job, socials }) {
+function Trainer(props) {
+  const { image, name, job, socials } = props;
   return (
     <Card className="trainer">
       <div className="trainer-image">
@@ -25,5 +28,12 @@ function Trainer({ image, name, job, socials }) {
     </Card>
   );
 }
+
+Trainer.propTypes = {
+  image: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  job: PropTypes.string.isRequired,
+  socials: PropTypes.string.isRequired,
+};
 
 export default Trainer;

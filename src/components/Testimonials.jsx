@@ -1,11 +1,12 @@
+/* eslint-disable */
 import { useState } from 'react';
-import SectionTitle from './SectionTitle';
 import { ImQuotesLeft } from 'react-icons/im';
-import Card from '../UI/Card';
 import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
 } from 'react-icons/io';
+import Card from '../UI/Card';
+import SectionTitle from './SectionTitle';
 import { testimonials } from '../data';
 
 function Testimonials() {

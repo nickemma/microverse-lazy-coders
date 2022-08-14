@@ -1,6 +1,6 @@
-import { BsInstagram } from 'react-icons/bs';
+/* eslint-disable */
+import { BsInstagram, BsGithub } from 'react-icons/bs';
 import { AiOutlineTwitter } from 'react-icons/ai';
-import { BsGithub } from 'react-icons/bs';
 import { FaLinkedinIn } from 'react-icons/fa';
 import Image from '../../images/image1.png';
 import { trainers } from '../../data';

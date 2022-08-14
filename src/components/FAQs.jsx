@@ -1,5 +1,8 @@
-import SectionTitle from './SectionTitle';
+/* eslint arrow-body-style: ["error", "always"] */
+/* eslint-env es6 */
+
 import { FaQuestion } from 'react-icons/fa';
+import SectionTitle from './SectionTitle';
 import { faqs } from '../data';
 import FAQ from './FAQ';
 

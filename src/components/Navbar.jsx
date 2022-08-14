@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { GoThreeBars } from 'react-icons/go';

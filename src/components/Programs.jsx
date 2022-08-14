@@ -1,9 +1,10 @@
+/* eslint-disable */
 import { Link } from 'react-router-dom';
 import { FaCrown } from 'react-icons/fa';
+import { AiFillCaretRight } from 'react-icons/ai';
 import SectionTitle from './SectionTitle';
 import { programs } from '../data';
 import Card from '../UI/Card';
-import { AiFillCaretRight } from 'react-icons/ai';
 
 function Programs() {
   return (
@@ -18,7 +19,8 @@ function Programs() {
                 <h3>{title}</h3>
                 <p>{info}</p>
                 <Link to={path} className="btn">
-                  Learn More <AiFillCaretRight />
+                  Learn More
+                  <AiFillCaretRight />
                 </Link>
               </Card>
             );

@@ -1,8 +1,8 @@
-import Hero from '../../components/Hero';
-import Image from '../../images/img3.jpg';
 import { MdEmail } from 'react-icons/md';
 import { BsMessenger } from 'react-icons/bs';
 import { IoLogoWhatsapp } from 'react-icons/io';
+import Hero from '../../components/Hero';
+import Image from '../../images/img3.jpg';
 import './Contact.css';
 
 function Contact() {

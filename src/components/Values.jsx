@@ -1,6 +1,7 @@
+/* eslint-disable */
+import { GiCutDiamond } from 'react-icons/gi';
 import Image from '../images/values1.png';
 import SectionTitle from './SectionTitle';
-import { GiCutDiamond } from 'react-icons/gi';
 import { values } from '../data';
 import Card from '../UI/Card';
 
@@ -10,7 +11,7 @@ function Values() {
       <div className="container value-content">
         <div className="value-left">
           <div className="value-image">
-            <img src={Image} alt="values Image" />
+            <img src={Image} alt="values design" />
           </div>
         </div>
         <div className="value-right">

@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { AiOutlinePlus } from 'react-icons/ai';
-import { AiOutlineMinus } from 'react-icons/ai';
+import { PropTypes } from 'prop-types';
+import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 
-function FAQ({ question, answer }) {
+function FAQ(props) {
+  const { question, answer } = props;
   const [isAnswerShowing, setIsAnswerShowing] = useState(false);
 
   const showAnswer = () => {
@@ -10,10 +11,10 @@ function FAQ({ question, answer }) {
   };
 
   return (
-    <div className="faq" onClick={showAnswer}>
+    <div className="faq">
       <div className="faq-info">
         <h3>{question}</h3>
-        <button type="button" className="faq-icon">
+        <button type="button" className="faq-icon" onClick={showAnswer}>
           {isAnswerShowing ? <AiOutlineMinus /> : <AiOutlinePlus />}
         </button>
       </div>
@@ -22,4 +23,8 @@ function FAQ({ question, answer }) {
   );
 }
 
+FAQ.propTypes = {
+  question: PropTypes.string.isRequired,
+  answer: PropTypes.string.isRequired,
+};
 export default FAQ;
