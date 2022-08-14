@@ -1,3 +1,5 @@
+import { PropTypes } from 'prop-types';
+
 function SectionTitle({ icon, title, className }) {
   return (
     <div className={`programs-title ${className}`}>
@@ -6,5 +8,11 @@ function SectionTitle({ icon, title, className }) {
     </div>
   );
 }
+
+SectionTitle.propTypes = {
+  icon: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
+};
 
 export default SectionTitle;

@@ -1,5 +1,5 @@
-import SectionTitle from './SectionTitle';
 import { FaQuestion } from 'react-icons/fa';
+import SectionTitle from './SectionTitle';
 import { faqs } from '../data';
 import FAQ from './FAQ';
 
