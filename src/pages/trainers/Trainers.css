@@ -11,6 +11,11 @@
 .trainer-image {
   border-radius: 0.2rem;
   overflow: hidden;
+  filter: saturate(0.25);
+}
+
+.trainer-image:hover {
+  filter: saturate(1);
 }
 
 .trainer h3 {
