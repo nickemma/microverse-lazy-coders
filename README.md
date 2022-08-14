@@ -25,7 +25,7 @@ The pull request is opened to get a review on the project and check for any requ
 
 ## Click here for live version
 
-- live demo: [coming soon]()
+- live demo: [Live](https://lazy-coders.netlify.app/)
 
 To get a local copy up and running follow these simple example steps.
 follow>>>>>>>>>
