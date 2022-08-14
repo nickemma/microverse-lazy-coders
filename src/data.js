@@ -177,8 +177,11 @@ const Trainer1 = require('./images/trainer1.png');
 const Trainer2 = require('./images/trainer2.png');
 const Trainer3 = require('./images/trainer3.png');
 const Trainer4 = require('./images/trainer4.png');
-const Trainer5 = require('./images/trainer5.png');
+const Trainer5 = require('./images/avatar4.jpg');
+const Trainer9 = require('./images/trainer5.png');
 const Trainer6 = require('./images/trainer6.png');
+const Trainer7 = require('./images/trainer7.png');
+const Trainer8 = require('./images/trainer8.png');
 
 export const trainers = [
   {
@@ -232,8 +235,8 @@ export const trainers = [
   {
     id: 5,
     image: Trainer5,
-    name: 'Sidney Kaguli',
-    job: 'Devops Engineer',
+    name: 'Oyinlade Ojesanmi',
+    job: 'Web Developer',
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
@@ -246,6 +249,43 @@ export const trainers = [
     image: Trainer6,
     name: 'Piesie Omane',
     job: 'Back End Developer',
+    socials: [
+      'https://instagram.com/',
+      'https://twitter.com/',
+      'https://github.com/',
+      'https://linkedin.com/',
+    ],
+  },
+  {
+    id: 7,
+    image: Trainer7,
+    name: 'Desmond Owusu Ansah',
+    job: 'Mern Stack Developer',
+    socials: [
+      'https://instagram.com/',
+      'https://twitter.com/',
+      'https://github.com/',
+      'https://linkedin.com/',
+    ],
+  },
+
+  {
+    id: 8,
+    image: Trainer8,
+    name: 'Nicholas Emmanuel',
+    job: 'Fullstack Developer',
+    socials: [
+      'https://instagram.com/',
+      'https://twitter.com/',
+      'https://github.com/',
+      'https://linkedin.com/',
+    ],
+  },
+  {
+    id: 9,
+    image: Trainer9,
+    name: 'Sidney Kaguli',
+    job: 'Devops Engineer',
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
