@@ -112,7 +112,7 @@ export const faqs = [
   },
   {
     id: 4,
-    question: 'Do I need to a computer science background?',
+    question: 'How to join Lazy Coders Team?',
     answer:
       'Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!',
   },
