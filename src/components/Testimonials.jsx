@@ -1,15 +1,21 @@
 /* eslint-disable */
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ImQuotesLeft } from 'react-icons/im';
 import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
 } from 'react-icons/io';
 import Card from '../UI/Card';
+import AOS from 'aos';
 import SectionTitle from './SectionTitle';
 import { testimonials } from '../data';
+import 'aos/dist/aos.css';
 
 function Testimonials() {
+  useEffect(() => {
+    AOS.init({ duration: 2500, easing: 'linear' });
+    AOS.refresh();
+  }, []);
   const [index, setIndex] = useState(0);
   const { name, quote, job, avatar } = testimonials[index];
 
@@ -27,7 +33,7 @@ function Testimonials() {
   };
   return (
     <section className="testimonials">
-      <div className="container testimonial-content">
+      <div className="container testimonial-content" data-aos="fade-left">
         <SectionTitle
           icon={<ImQuotesLeft />}
           title="Testimonials"

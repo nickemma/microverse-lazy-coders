@@ -43,13 +43,6 @@ export const programs = [
     info: 'A full stack developer is a web developer or engineer who works with both the front and back ends of a website or application. In this sense, they provide an end-to-end service, and can be involved in projects that involve databases and building user-facing websites.',
     path: '/programs/333',
   },
-  {
-    id: 4,
-    icon: <FaLaptopCode />,
-    title: 'Software Engineering',
-    info: 'Software engineers focus on applying the principles of engineering to software development. Their role includes analyzing and modifying existing software as well as designing, constructing and testing end-user applications. that meet user needs — all through software programming',
-    path: '/programs/444',
-  },
 ];
 
 export const values = [
@@ -73,18 +66,6 @@ export const values = [
   },
   {
     id: 4,
-    icon: <FaLaptopCode />,
-    title: 'Value Four',
-    desc: 'Placeat quidem facere dicta modi? Pariatur exercitationem illum.',
-  },
-  {
-    id: 5,
-    icon: <FaLaptopCode />,
-    title: 'Value Four',
-    desc: 'Placeat quidem facere dicta modi? Pariatur exercitationem illum.',
-  },
-  {
-    id: 6,
     icon: <FaLaptopCode />,
     title: 'Value Four',
     desc: 'Placeat quidem facere dicta modi? Pariatur exercitationem illum.',
@@ -118,13 +99,13 @@ export const faqs = [
   },
   {
     id: 5,
-    question: 'Should I join online bootcamp or self-taught?',
+    question: 'online bootcamp or self-taught?',
     answer:
       'Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui.',
   },
   {
     id: 6,
-    question: 'How is diversity in pair programming?',
+    question: 'diversity in pair programming?',
     answer:
       'Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate.',
   },
@@ -182,6 +163,9 @@ const Trainer9 = require('./images/trainer5.png');
 const Trainer6 = require('./images/trainer6.png');
 const Trainer7 = require('./images/trainer7.png');
 const Trainer8 = require('./images/trainer8.png');
+const Trainer10 = require('./images/trainer10.png');
+const Trainer11 = require('./images/trainer11.png');
+const Trainer12 = require('./images/trainer12.png');
 
 export const trainers = [
   {
@@ -224,7 +208,7 @@ export const trainers = [
     id: 4,
     image: Trainer4,
     name: 'Chrispaix Kaze',
-    job: 'UI/UX Designer',
+    job: 'Web Developer',
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
@@ -286,6 +270,42 @@ export const trainers = [
     image: Trainer9,
     name: 'Sidney Kaguli',
     job: 'Devops Engineer',
+    socials: [
+      'https://instagram.com/',
+      'https://twitter.com/',
+      'https://github.com/',
+      'https://linkedin.com/',
+    ],
+  },
+  {
+    id: 10,
+    image: Trainer10,
+    name: 'Asim Khan',
+    job: 'Software Developer',
+    socials: [
+      'https://instagram.com/',
+      'https://twitter.com/',
+      'https://github.com/',
+      'https://linkedin.com/',
+    ],
+  },
+  {
+    id: 11,
+    image: Trainer11,
+    name: 'Htet Niang Rex',
+    job: 'Mobile Developer',
+    socials: [
+      'https://instagram.com/',
+      'https://twitter.com/',
+      'https://github.com/',
+      'https://linkedin.com/',
+    ],
+  },
+  {
+    id: 12,
+    image: Trainer12,
+    name: 'Tushar Singh',
+    job: 'Full-Stack Engineer',
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
