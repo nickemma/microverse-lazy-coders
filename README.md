@@ -21,9 +21,9 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 BookStore CMS <a name="about-project"></a>
+# 📖 Microverse Lazycoders <a name="about-project"></a>
 
-**Microverse LazyCoders Portfolio** Hire top talents from Microverse. LazyCoders. We’ve all been here as embedded developers, bringing up new boards, drivers and applications, wondering why and how we got into this mess.each layer we dig through while debugging, we smile a bit less and a few more tears are shed. These sorts of issues are often a result of developer error.
+**Microverse LazyCoders Portfolio** Microverse lazy coders is a website where users can check out mentors and schedule a session with a mentor.
 
 ## 🛠 Built With <a name="built-with"></a>
 
