@@ -18,7 +18,7 @@ function MainHeader() {
           <h1>Join the legends of the programming world</h1>
           <p>
             Our website allows users to easily connect with experienced mentors
-            in a variety of fields. Whether you're seeking guidance on your
+            in a variety of fields. Whether you&apos;re seeking guidance on your
             career path, looking to improve specific skills, or just want some
             personalized advice, we have a mentor who can help.
           </p>

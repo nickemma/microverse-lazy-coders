@@ -122,7 +122,7 @@ export const testimonials = [
   },
   {
     id: 2,
-    name: 'Oyinlade Ojasemani',
+    name: 'Aleksandra Ujavri',
     quote:
       'I have gained so much from our sessions and have seen a marked improvement in my confidence and skills. My mentor has truly been a supportive and invaluable resource for me, and I am so grateful to have connected with them through this platform.',
     job: 'Software Engineer',
@@ -130,7 +130,7 @@ export const testimonials = [
   },
   {
     id: 3,
-    name: 'Oyinlade Ojasemani',
+    name: 'Silvia Tofana',
     quote:
       'I have been working with my mentor for the past year and it has completely transformed my career. My mentor has provided me with valuable advice and guidance on my professional development, and has helped me to identify and pursue new opportunities.',
     job: 'University Lecturer',
@@ -138,11 +138,11 @@ export const testimonials = [
   },
   {
     id: 4,
-    name: 'Oyinlade Ojasemani',
+    name: 'Htet Rex',
     quote:
       'I have gained so much from our sessions and have seen a marked improvement in my confidence and skills. My mentor has truly been a supportive and invaluable resource for me, and I am so grateful to have connected with them through this platform.',
     job: 'The Bug Catcher',
-    avatar: require('./images/avatar4.jpg'),
+    avatar: require('./images/avatar4.png'),
   },
   {
     id: 5,
@@ -158,7 +158,7 @@ const Trainer1 = require('./images/trainer1.png');
 const Trainer2 = require('./images/trainer2.png');
 const Trainer3 = require('./images/trainer3.png');
 const Trainer4 = require('./images/trainer4.png');
-const Trainer5 = require('./images/avatar4.jpg');
+const Trainer5 = require('./images/avatar5.jpg');
 const Trainer9 = require('./images/trainer5.png');
 const Trainer6 = require('./images/trainer6.png');
 const Trainer7 = require('./images/trainer7.png');

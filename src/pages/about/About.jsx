@@ -45,9 +45,9 @@ function About() {
             <p>
               Today, our platform is helping people all around the world connect
               with mentors and access the support and guidance they need to
-              succeed. We're proud of the impact we've had and are excited to
-              continue supporting mentorship and personal growth through our
-              platform.
+              succeed. We&apos;re proud of the impact we&apos;ve had and are
+              excited to continue supporting mentorship and personal growth
+              through our platform.
             </p>
           </div>
         </div>
