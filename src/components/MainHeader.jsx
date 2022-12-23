@@ -17,9 +17,10 @@ function MainHeader() {
           <h3>#100DaysOfCode</h3>
           <h1>Join the legends of the programming world</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repudiandae minima quaerat cum alias voluptate? Alias Repudiandae
-            minima quaerat cum alias voluptate? Alias.
+            Our website allows users to easily connect with experienced mentors
+            in a variety of fields. Whether you're seeking guidance on your
+            career path, looking to improve specific skills, or just want some
+            personalized advice, we have a mentor who can help.
           </p>
           <Link to="/trainers" className="btn">
             get started

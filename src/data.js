@@ -77,37 +77,37 @@ export const faqs = [
     id: 1,
     question: 'How often should I code?',
     answer:
-      'Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!',
+      'Yes, our platform uses a secure payment system to ensure that all transactions are safe and secure. You can feel confident that your personal and financial information is protected when using our platform.',
   },
   {
     id: 2,
     question: 'What time of day is best to code?',
     answer:
-      'Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit.',
+      "Yes, you can cancel or reschedule a session with a mentor through our platform. However, please note that our cancellation and rescheduling policies may vary depending on the mentor's availability and the timing of your request. Be sure to review the terms and conditions of your session before booking.",
   },
   {
     id: 3,
     question: 'How long should my coding be?',
     answer:
-      'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.',
+      'Yes, our platform uses a secure payment system to ensure that all transactions are safe and secure. You can feel confident that your personal and financial information is protected when using our platform',
   },
   {
     id: 4,
     question: 'How to join Lazy Coders Team?',
     answer:
-      'Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!',
+      "Sessions can be conducted online or in-person, depending on the mentor's availability and your preference. You can choose the format that works best for you when booking a session.",
   },
   {
     id: 5,
     question: 'online bootcamp or self-taught?',
     answer:
-      'Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui.',
+      "To book a session with a mentor, simply select the mentor you'd like to work with and choose an available time slot that works for you. Our platform will then prompt you to complete the payment process and confirm your session.",
   },
   {
     id: 6,
     question: 'diversity in pair programming?',
     answer:
-      'Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate.',
+      "To find a mentor on our platform, simply browse through the profiles of our available mentors. You can filter your search by area of expertise, location, and other factors to find a mentor who is right for you. Once you've found a mentor you'd like to work with, you can easily book a session through our platform.",
   },
 ];
 
@@ -116,7 +116,7 @@ export const testimonials = [
     id: 1,
     name: 'Oyinlade Ojasemani',
     quote:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.',
+      'I have been working with my mentor for the past year and it has completely transformed my career. My mentor has provided me with valuable advice and guidance on my professional development, and has helped me to identify and pursue new opportunities.',
     job: 'Student',
     avatar: require('./images/avatar1.png'),
   },
@@ -124,7 +124,7 @@ export const testimonials = [
     id: 2,
     name: 'Oyinlade Ojasemani',
     quote:
-      'Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.',
+      'I have gained so much from our sessions and have seen a marked improvement in my confidence and skills. My mentor has truly been a supportive and invaluable resource for me, and I am so grateful to have connected with them through this platform.',
     job: 'Software Engineer',
     avatar: require('./images/avatar2.jpg'),
   },
@@ -132,7 +132,7 @@ export const testimonials = [
     id: 3,
     name: 'Oyinlade Ojasemani',
     quote:
-      'Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.',
+      'I have been working with my mentor for the past year and it has completely transformed my career. My mentor has provided me with valuable advice and guidance on my professional development, and has helped me to identify and pursue new opportunities.',
     job: 'University Lecturer',
     avatar: require('./images/avatar3.jpg'),
   },
@@ -140,7 +140,7 @@ export const testimonials = [
     id: 4,
     name: 'Oyinlade Ojasemani',
     quote:
-      'Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.',
+      'I have gained so much from our sessions and have seen a marked improvement in my confidence and skills. My mentor has truly been a supportive and invaluable resource for me, and I am so grateful to have connected with them through this platform.',
     job: 'The Bug Catcher',
     avatar: require('./images/avatar4.jpg'),
   },
@@ -148,7 +148,7 @@ export const testimonials = [
     id: 5,
     name: 'Oyinlade Ojasemani',
     quote:
-      'Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.',
+      'I highly recommend working with a mentor to anyone looking to take their career to the next level. It has made a huge difference in my life and I am confident it can do the same for others',
     job: 'Java developer',
     avatar: require('./images/avatar5.jpg'),
   },

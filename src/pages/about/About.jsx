@@ -27,23 +27,27 @@ function About() {
           <div className="about-content-info" data-aos="fade-left">
             <h2>Our Story</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur amet deserunt tenetur minus animi dicta beatae eos at,
-              maxime autem et accusantium pariatur molestias sint, praesentium
-              ut dignissimos ea veritatis asperiores doloremque reprehenderit
-              labore! Laboriosam.
+              Our story began when a group of individuals recognized the value
+              of mentorship and the impact it can have on individuals and
+              communities. We saw firsthand how powerful it can be to have
+              someone to turn to for advice, guidance, and support, and we
+              wanted to create a platform that would make it easier for people
+              to connect with mentors and access the benefits of mentorship.
             </p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur amet deserunt tenetur minus animi dicta beatae eos at,
-              maxime autem et accusantium pariatur molestias sint, praesentium
-              ut dignissimos ea veritatis asperiores doloremque reprehenderit
-              labore! Laboriosam.
+              As we started to build our platform, we knew that we wanted to
+              create a user-friendly and accessible experience that would allow
+              anyone to easily find and book sessions with a mentor. We also
+              wanted to make sure that our platform was inclusive and diverse,
+              so that anyone could find a mentor who resonated with them and
+              their needs.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est iste
-              excepturi quam nisi doloribus explicabo. Tempore est laboriosam
-              sed veniam.
+              Today, our platform is helping people all around the world connect
+              with mentors and access the support and guidance they need to
+              succeed. We're proud of the impact we've had and are excited to
+              continue supporting mentorship and personal growth through our
+              platform.
             </p>
           </div>
         </div>
@@ -57,18 +61,19 @@ function About() {
           <div className="about-content-info" data-aos="fade-left">
             <h2>Our Vision</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur amet deserunt tenetur minus animi dicta beatae eos at,
-              maxime autem et accusantium pariatur molestias sint, praesentium
-              ut dignissimos ea veritatis asperiores doloremque reprehenderit
-              labore! Laboriosam.
+              Our vision is to create a world where mentorship is accessible and
+              impactful for everyone. We envision a future where individuals
+              have the support and guidance they need to achieve their goals and
+              reach their full potential.
             </p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur amet deserunt tenetur minus animi dicta beatae eos at,
-              maxime autem et accusantium pariatur molestias sint, praesentium
-              ut dignissimos ea veritatis asperiores doloremque reprehenderit
-              labore! Laboriosam.
+              To achieve this vision, we are committed to building a platform
+              that is user-friendly, inclusive, and diverse. We want to make it
+              easy for anyone to find and book sessions with a mentor,
+              regardless of their location or background. We also want to offer
+              a wide range of mentors, each with their own unique areas of
+              expertise and experience, so that anyone can find a mentor who
+              resonates with their needs and goals.
             </p>
           </div>
         </div>
@@ -79,18 +84,18 @@ function About() {
           <div className="about-content-info">
             <h2>Our Mission</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur amet deserunt tenetur minus animi dicta beatae eos at,
-              maxime autem et accusantium pariatur molestias sint, praesentium
-              ut dignissimos ea veritatis asperiores doloremque reprehenderit
-              labore! Laboriosam.
+              Our mission is to make mentorship accessible and impactful for
+              everyone. We believe that everyone has the potential to grow and
+              achieve their goals, and we want to provide a platform that makes
+              it easy for people to connect with mentors and access the support
+              and guidance they need to succeed.
             </p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur amet deserunt tenetur minus animi dicta beatae eos at,
-              maxime autem et accusantium pariatur molestias sint, praesentium
-              ut dignissimos ea veritatis asperiores doloremque reprehenderit
-              labore! Laboriosam.
+              We are committed to creating a user-friendly and inclusive
+              platform that allows anyone to easily find and book sessions with
+              a mentor. We strive to offer a diverse range of mentors, each with
+              their own unique areas of expertise and background, so that anyone
+              can find a mentor who resonates with their needs and goals.
             </p>
           </div>
           <div className="about-image">

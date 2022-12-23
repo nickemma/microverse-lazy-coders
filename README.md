@@ -1,11 +1,10 @@
 # Project Name
 
-BookStore CMS
+Microverse LazyCoders
 
 # Description the project.
 
 description coming soon
-
 
 The pull request is opened to get a review on the project and check for any required changes.
 
