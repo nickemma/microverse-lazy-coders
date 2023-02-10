@@ -146,11 +146,11 @@ export const testimonials = [
   },
   {
     id: 5,
-    name: 'Oyinlade Ojasemani',
+    name: 'Charle Okoye',
     quote:
       'I highly recommend working with a mentor to anyone looking to take their career to the next level. It has made a huge difference in my life and I am confident it can do the same for others',
     job: 'Java developer',
-    avatar: require('./images/avatar5.jpg'),
+    avatar: require('./images/avatar5.png'),
   },
 ];
 
@@ -158,20 +158,21 @@ const Trainer1 = require('./images/trainer1.png');
 const Trainer2 = require('./images/trainer2.png');
 const Trainer3 = require('./images/trainer3.png');
 const Trainer4 = require('./images/trainer4.png');
-const Trainer5 = require('./images/avatar5.jpg');
-const Trainer9 = require('./images/trainer5.png');
+const Trainer5 = require('./images/trainer5.jpg');
 const Trainer6 = require('./images/trainer6.png');
 const Trainer7 = require('./images/trainer7.png');
 const Trainer8 = require('./images/trainer8.png');
+const Trainer9 = require('./images/trainer9.png');
 const Trainer10 = require('./images/trainer10.png');
 const Trainer11 = require('./images/trainer11.png');
 const Trainer12 = require('./images/trainer12.png');
+const Trainer13 = require('./images/trainer13.png');
 
 export const trainers = [
   {
     id: 1,
     image: Trainer1,
-    name: 'Abdelmajid',
+    name: 'Abdelmajid Oumer Ali',
     job: 'Javascript Developer',
     socials: [
       'https://instagram.com/',
@@ -231,8 +232,8 @@ export const trainers = [
   {
     id: 6,
     image: Trainer6,
-    name: 'Piesie Omane',
-    job: 'Back End Developer',
+    name: 'Sidney Kaguli',
+    job: 'Devops Engineer',
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
@@ -243,8 +244,8 @@ export const trainers = [
   {
     id: 7,
     image: Trainer7,
-    name: 'Desmond Owusu Ansah',
-    job: 'Mern Stack Developer',
+    name: 'Taheny Belguith',
+    job: 'Rails Developer',
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
@@ -268,8 +269,8 @@ export const trainers = [
   {
     id: 9,
     image: Trainer9,
-    name: 'Sidney Kaguli',
-    job: 'Devops Engineer',
+    name: 'Htet Niang Rex',
+    job: 'Mobile App Developer',
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
@@ -292,8 +293,8 @@ export const trainers = [
   {
     id: 11,
     image: Trainer11,
-    name: 'Htet Niang Rex',
-    job: 'Mobile Developer',
+    name: 'Piesie Omane',
+    job: 'Backend Developer',
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
@@ -306,6 +307,18 @@ export const trainers = [
     image: Trainer12,
     name: 'Tushar Singh',
     job: 'Full-Stack Engineer',
+    socials: [
+      'https://instagram.com/',
+      'https://twitter.com/',
+      'https://github.com/',
+      'https://linkedin.com/',
+    ],
+  },
+  {
+    id: 13,
+    image: Trainer13,
+    name: 'Desmond Owusu Ansah',
+    job: 'Mern-Stack Engineer',
     socials: [
       'https://instagram.com/',
       'https://twitter.com/',
